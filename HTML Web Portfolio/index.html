@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel = "stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <header>
@@ -29,16 +29,16 @@
             </div>
             <div class="statsContainer">
                 <div class ="imageContainer">
-                    <img src="https://media.licdn.com/dms/image/C4E03AQFFBjYDbyIUGQ/profile-displayphoto-shrink_400_400/0/1608482486574?e=1713398400&v=beta&t=2DmYb539lWd3QwIYZikfg9E-xRbWCEp1K8iFEnvGu1o" 
+                    <img src="./public/rohan-headshot.jpg" 
                     alt="profile-img"/>
                 </div>
-                <div class = "stats darkerText">
+                <div class="stats darkerText">
                     <div>
                         <div> 
                             <i class="fa-solid fa-book"></i>
                         </div>
                         
-                        <p >7 GitHub Repositories</p>
+                        <p>7 GitHub Repositories</p>
                     </div>
                     <div>
                         <div>
@@ -54,68 +54,93 @@
                     </div>
                 </div>
             </div>
-            <p class="aboutMe">Hi, I'm Rohan Saxena, a software engineer who loves coding and AI. 
-                In addition to coding, I love studying business and going to the gym. </p>
+            <p class="aboutMe">Hi, I'm Rohan Saxena, a software engineer who loves coding, data analysis, and AI. 
+                In addition to coding, I love building business and fitness. </p>
 
             <div>
                 <a href="mailto:rohansaxena2020@gmail.com" class="outreach darkerText">
                     <i class="fa-solid fa-arrow-right"></i>
-                    <p>Email me</p>
+                    <p>Email me - rohansaxena2020@gmail.com</p>
                 </a>
             </div>
         </section>
-       <section class="projectContainer">
+        <section class="projectContainer">
             <p class="darkerText projectsHeaderText">Latest Projects</p>
-            <div class = "projectItem">
+            <div class="projectItem">
                 <div>
-                    <p class="darkerText">Feb 8, 2024</p>
-                    <p>Image Classification Model Using Resnet18. 
-                        This model takes in concrete images (as Tensors) that have cracks and that don't and classifies them using a modified pretrained Resnet18 model</p>
+                    <p class="darkerText">June 22, 2024</p>
+                    <p>Food Chatbot. This is an end-to-end project which includes a HTML/CSS front end, chatbot built in Google Dialogflow, and backend database in MySQL. The chatbot allows users to place new orders from a variety of food options and track existing orders.</p>
                     <div class="linkContainer">
-                        <a target="_blank" href="https://github.com/RohanSaxena2020/AI/blob/main/Loading%20Data%20and%20Viewing%20Data%20-%20V2%20(2).ipynb" class="linkItem">
+                        <a target="_blank" href="https://github.com/RohanSaxena2020/AI/tree/main/Food%20ChatBot" class="linkItem">
                             <div> 
-                                <i class="fa-brands fa-github"></i>
-                           </div>
-                            <p >Github</p>
-                        </a>
-                        <a target="_blank" href="https://github.com/RohanSaxena2020/AI/blob/main/Loading%20Data%20and%20Viewing%20Data%20-%20V2%20(2).ipynb?short_path=69ad9a7" class="linkItem">
-                            <div> 
-                                <i class="fa-solid fa-bolt"></i>
-                           </div>
-                            <p >Live (COMING SOON)</p>
+                                 <i class="fa-solid fa-robot"></i>
+                            </div>
+                            <p>Github</p>
                         </a>
                     </div>
                 </div>
                 <div>
-                    <img src = "/public/Resnet18model.png" alt = "Project image"/>
+                    <img src="./public/food-chatbot.png" alt="Project image"/>
                 </div>
             </div>
-            <div class = "projectItem">
+            <div class="projectItem">
+                <div>
+                    <p class="darkerText">June 9, 2024</p>
+                    <p>Tomato Classification. This is a neural network deep learning model designed to classify tomato diseases. It is trained on over 16000 images.</p>
+                    <div class="linkContainer">
+                        <a target="_blank" href="https://github.com/RohanSaxena2020/AI/tree/main/Tomato%20Classification%20Project" class="linkItem">
+                            <div> 
+                                 <i class="fa-solid fa-robot"></i>
+                            </div>
+                            <p>Github</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/tomato-classification.png" alt="Project image"/>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div>
+                    <p class="darkerText">May 12, 2024</p>
+                    <p>PGA Tour Statistics Linear Regression Model. The model takes in statistics on a golfer’s driving, iron play, short game, and putting and outputs a predicted scoring average using a linear regression model trained on PGA tour data.</p>
+                    <div class="linkContainer">
+                        <a target="_blank" href="https://github.com/RohanSaxena2020/AI/tree/main/Regression%20Project" class="linkItem">
+                            <div> 
+                                 <i class="fa-solid fa-robot"></i>
+                            </div>
+                            <p>Github</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/golf-course-regression-model.png" alt="Project image"/>
+                </div>
+            </div>
+            <div class="projectItem">
                 <div>
                     <p class="darkerText">Feb 5, 2024</p>
-                    <p>Sales Manager AI (V1). This trained LLM takes in a sales call transcript, analyze it, 
-                        grades it using Alex Hormozi's CLOSER Framework, and provides feedback to the sales rep.</p>
+                    <p>Sales Manager AI (V1). This trained LLM takes in a sales call transcript, analyzes it, grades it using Alex Hormozi's CLOSER Framework, and provides feedback to the sales rep.</p>
                     <div class="linkContainer">
                         <a target="_blank" href="https://chat.openai.com/share/56e0118c-9ec7-45eb-94f8-66c052df810e" class="linkItem">
                             <div> 
                                  <i class="fa-solid fa-robot"></i>
                             </div>
-                            <p >ChatGPT</p>
+                            <p>ChatGPT</p>
                         </a>
-                        <a target="_blank" href="https://github.com/RohanSaxena2020/AI/blob/main/Loading%20Data%20and%20Viewing%20Data%20-%20V2%20(2).ipynb?short_path=69ad9a7" class="linkItem">
+                        <a target="_blank" href="https://sales-ai-app-v-2-rohan75.replit.app/" class="linkItem">
                             <div> 
                                  <i class="fa-solid fa-bolt"></i>
                             </div>
-                            <p >Live (COMING SOON)</p>
+                            <p>Live</p>
                         </a>
                     </div>
                 </div>
                 <div>
-                        <img src = "/public/Sales Manager AI V1.png" alt = "Project image"/>
+                    <img src="./public/Sales-Manager-AI-V1.png" alt="Project image"/>
                 </div>
             </div>
        </section>
     </main>
-    
 </body>
 </html>
